@@ -9,19 +9,14 @@ Ce projet a été conçu comme une application VR avec interaction manuelle, per
 - peindre sur un canvas en 3D,
 - choisir des couleurs depuis une palette interactive,
 - manipuler un pinceau virtuel dans l’espace,
-- expérimenter une scène immersiva avec un environnement de type salle de peinture.
 
 ## Fonctionnalités principales
 
 - Pinceau interactif avec raycast et détection de surface
 - Canvas dynamique avec texture de dessin modifiable
 - Palette de couleurs avec sélection tactile/visuelle
-- Effets visuels et particules lors du dessin
-- Support de l’interaction XR avec Unity XR Interaction Toolkit
 
 ## Captures du projet
-
-Voici quelques captures disponibles dans le dossier Assets/screeshots :
 
 <div style="display:flex; flex-wrap:wrap; gap:16px; align-items:flex-start;">
   <img src="Assets/screeshots/1.png" alt="Capture 1" width="300" height="180" style="object-fit:cover;" />
