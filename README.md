@@ -16,7 +16,15 @@ Ce projet a été conçu comme une application VR avec interaction manuelle, per
 - Canvas dynamique avec texture de dessin modifiable
 - Palette de couleurs avec sélection tactile/visuelle
 
+## Démo animée
+
+Voici une version GIF de la démonstration du projet :
+
+![Démo GIF](Assets/screeshots/painting.gif)
+
 ## Captures du projet
+
+<<<<<<< HEAD
 
 <div style="display:flex; flex-wrap:wrap; gap:16px; align-items:flex-start;">
   <img src="Assets/screeshots/1.png" alt="Capture 1" width="300" height="180" style="object-fit:cover;" />
@@ -27,6 +35,19 @@ Ce projet a été conçu comme une application VR avec interaction manuelle, per
   <img src="Assets/screeshots/6_painting%20in%20blue.png" alt="Capture 6" width="300" height="180" style="object-fit:cover;" />
   <img src="Assets/screeshots/7_selectredcolor.png" alt="Capture 7" width="300" height="180" style="object-fit:cover;" />
   <img src="Assets/screeshots/8_paintingInRed.png" alt="Capture 8" width="300" height="180" style="object-fit:cover;" />
+=======
+Voici quelques captures disponibles dans le dossier Assets/screeshots :
+
+<div style="display:flex; flex-wrap:wrap; gap:12px; align-items:flex-start;">
+  <img src="Assets/screeshots/1.png" alt="Capture 1" width="220" />
+  <img src="Assets/screeshots/2-grapping%20bruch.png" alt="Capture 2" width="220" />
+  <img src="Assets/screeshots/3_selectyellowcollor.png" alt="Capture 3" width="220" />
+  <img src="Assets/screeshots/4_painting%20in%20yellow.png" alt="Capture 4" width="220" />
+  <img src="Assets/screeshots/5_selectbluecolor.png" alt="Capture 5" width="220" />
+  <img src="Assets/screeshots/6_painting%20in%20blue.png" alt="Capture 6" width="220" />
+  <img src="Assets/screeshots/7_selectredcolor.png" alt="Capture 7" width="220" />
+  <img src="Assets/screeshots/8_paintingInRed.png" alt="Capture 8" width="220" />
+>>>>>>> parent of f682c4c (Update README.md)
 </div>
 
 ## Démo vidéo
@@ -34,12 +55,6 @@ Ce projet a été conçu comme une application VR avec interaction manuelle, per
 Une vidéo de démonstration est disponible ici :
 
 - [Vidéo de démonstration](Assets/screeshots/painting.mp4)
-
-## Démo animée
-
-Voici une version GIF de la démonstration du projet :
-
-![Démo GIF](Assets/screeshots/painting.gif)
 
 ## Prérequis
 
