@@ -23,14 +23,16 @@ Ce projet a été conçu comme une application VR avec interaction manuelle, per
 
 Voici quelques captures disponibles dans le dossier Assets/screeshots :
 
-![Capture 1](Assets/screeshots/1.png)
-![Capture 2](Assets/screeshots/2-grapping%20bruch.png)
-![Capture 3](Assets/screeshots/3_selectyellowcollor.png)
-![Capture 4](Assets/screeshots/4_painting%20in%20yellow.png)
-![Capture 5](Assets/screeshots/5_selectbluecolor.png)
-![Capture 6](Assets/screeshots/6_painting%20in%20blue.png)
-![Capture 7](Assets/screeshots/7_selectredcolor.png)
-![Capture 8](Assets/screeshots/8_paintingInRed.png)
+<div style="display:flex; flex-wrap:wrap; gap:12px; align-items:flex-start;">
+  <img src="Assets/screeshots/1.png" alt="Capture 1" width="220" />
+  <img src="Assets/screeshots/2-grapping%20bruch.png" alt="Capture 2" width="220" />
+  <img src="Assets/screeshots/3_selectyellowcollor.png" alt="Capture 3" width="220" />
+  <img src="Assets/screeshots/4_painting%20in%20yellow.png" alt="Capture 4" width="220" />
+  <img src="Assets/screeshots/5_selectbluecolor.png" alt="Capture 5" width="220" />
+  <img src="Assets/screeshots/6_painting%20in%20blue.png" alt="Capture 6" width="220" />
+  <img src="Assets/screeshots/7_selectredcolor.png" alt="Capture 7" width="220" />
+  <img src="Assets/screeshots/8_paintingInRed.png" alt="Capture 8" width="220" />
+</div>
 
 ## Démo vidéo
 
