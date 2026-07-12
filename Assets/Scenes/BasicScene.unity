@@ -737,11 +737,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1680501587, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.18
+      value: -7.44
       objectReference: {fileID: 0}
     - target: {fileID: 1680501587, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.03
+      value: 2.72
       objectReference: {fileID: 0}
     - target: {fileID: 1680501587, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -749,7 +749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1680501587, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7200489
+      value: 0.4878174
       objectReference: {fileID: 0}
     - target: {fileID: 1680501587, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -757,7 +757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1680501587, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.6939234
+      value: -0.87294567
       objectReference: {fileID: 0}
     - target: {fileID: 1680501587, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.z
@@ -765,7 +765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1680501587, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -87.883
+      value: -121.606
       objectReference: {fileID: 0}
     - target: {fileID: 1767192439, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_BackGroundColor.a
@@ -1673,7 +1673,7 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 576132936}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
@@ -1763,21 +1763,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushRenderer: {fileID: 1812864648}
-  brushTip: {fileID: 1812864650}
+  brushTip: {fileID: 576132936}
   grabInteractable: {fileID: 551206676}
-  rayDistance: 0.2
+  rayDistance: 0.1
   boardMask:
     serializedVersion: 2
     m_Bits: 256
   useBrushTipForward: 1
-  rayDirectionOffset: {x: 0, y: 0, z: 0}
-  brushTipLocalOffset: {x: 0, y: 0, z: -0.69}
+  rayDirectionOffset: {x: -7, y: 0.7, z: 1.69}
+  brushTipLocalOffset: {x: -0.5, y: 3, z: -0.2}
   brushColor: {r: 1, g: 0, b: 0, a: 1}
   brushSize: 20
   brushHardness: 1
   brushOpacity: 1
   paintParticles: {fileID: 0}
-  rayVisualizer: {fileID: 0}
+  rayVisualizer: {fileID: 3855541976867003652, guid: bf3a5c01bde96c047b9993e011b17ef9, type: 3}
   brushCursor: {fileID: 0}
   debugMode: 1
   showRay: 1
@@ -4407,11 +4407,6 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7606043282503255865, guid: 647776e376217aa4781cc67cbe9d610c, type: 3}
   m_PrefabInstance: {fileID: 415979495}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1812864650 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -939521952750855832, guid: 647776e376217aa4781cc67cbe9d610c, type: 3}
-  m_PrefabInstance: {fileID: 415979495}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1815513053
 GameObject:
   m_ObjectHideFlags: 0
@@ -4961,8 +4956,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 506d0136d83937b45ac714b738c18824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textureWidth: 512
-  textureHeight: 512
+  textureWidth: 1024
+  textureHeight: 1024
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   textureFilterMode: 1
   brushSoundDelay: 0.1
